@@ -4,7 +4,7 @@ var mod = require('./helloworld');
 it("Réalisez la fonction puissance", function () {
   try
   {
-	assert.equal("Hello World", mod.helloWorld());
+	assert.equal("Hello World!", mod.helloWorld());
   }
   catch (error)
   {

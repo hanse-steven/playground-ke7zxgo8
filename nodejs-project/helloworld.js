@@ -1,4 +1,4 @@
-function helloWorld() {
+function helloworld() {
 	return "Met ton texte ici";
 }
 
