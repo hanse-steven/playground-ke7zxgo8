@@ -1,5 +1,5 @@
 var assert = require('assert');
-var mod = require('./helloworld');
+var mod = require('./helloworld.js');
 
 it("Realisez la fonction helloworld", function () {
   try
