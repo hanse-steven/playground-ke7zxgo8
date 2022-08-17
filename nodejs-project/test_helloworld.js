@@ -4,7 +4,7 @@ var mod = require('./helloworld.js');
 it("Realisez la fonction helloworld", function () {
   try
   {
-	assert.equal("Hello World!", mod.helloWorld());
+	assert.equal("Hello World!", mod.helloworld());
   }
   catch (error)
   {
