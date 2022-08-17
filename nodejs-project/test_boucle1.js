@@ -1,5 +1,5 @@
 var assert = require('assert');
-var mod = require('./boucles1.js');
+var mod = require('./boucle1.js');
 
 it("Réalisez la fonction puissance", function () {
   try

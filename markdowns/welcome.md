@@ -10,7 +10,7 @@ Créez une fonction __puissance__ qui :
 
 💡 Utilisez une boucle par exemple x^n = x * x * x *x * ... n fois
 
-@[Réalisez la fonction puissance]({ "stubs": ["boucles1.js"], "command": "node_modules/mocha/bin/mocha test_boucles1.js --reporter list" })
+@[Réalisez la fonction puissance]({ "stubs": ["boucle1.js"], "command": "node_modules/mocha/bin/mocha test_boucle1.js --reporter list" })
 
 ## Boucle et tableau
 
@@ -23,7 +23,7 @@ Créez une fonction __initXY__ :
 - qui prend en 2ème argument l'ordonnée du 1er objet
 - qui calcule les abscisses et ordonnés des objects de la série sachant qu'il doivent être espacés de 40 pixels (+40) les uns des autres en abscisse et de 30 pixels (+30) en ordonnée
 
-@[Réalisez la fonction d'initialisation]({ "stubs": ["boucles2.js"], "command": "node_modules/mocha/bin/mocha test_boucles2.js --reporter list" })
+@[Réalisez la fonction d'initialisation]({ "stubs": ["boucle2.js"], "command": "node_modules/mocha/bin/mocha test_boucle2.js --reporter list" })
 
 ## Modifiez un tableau avec push et pop
 
@@ -35,4 +35,4 @@ Vous disposez d'un tableau contenant des nombres aléatoires et vous devez crée
 
 💡 la fonction doit fonctionner quel que soit le tableau __tInit__
 
-@[Réalisez la fonction de tri]({ "stubs": ["boucles3.js"], "command": "node_modules/mocha/bin/mocha test_boucles3.js --reporter list" })
+@[Réalisez la fonction de tri]({ "stubs": ["boucle3.js"], "command": "node_modules/mocha/bin/mocha test_boucle3.js --reporter list" })

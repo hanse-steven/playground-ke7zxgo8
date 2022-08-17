@@ -1,5 +1,5 @@
 var assert = require('assert');
-var mod = require('./boucles2.js');
+var mod = require('./boucle2.js');
 
 var pX = [100];
 var pY = [200];

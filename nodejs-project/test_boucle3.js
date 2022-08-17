@@ -1,5 +1,5 @@
 var assert = require('assert');
-var mod = require('./boucles3.js');
+var mod = require('./boucle3.js');
 
 	it("Tri des tableaux", function () {
 		try
