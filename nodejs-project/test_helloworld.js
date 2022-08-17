@@ -1,7 +1,7 @@
 var assert = require('assert');
 var mod = require('./helloworld');
 
-it("Réalisez la fonction puissance", function () {
+it("Realisez la fonction helloworld", function () {
   try
   {
 	assert.equal("Hello World!", mod.helloWorld());
