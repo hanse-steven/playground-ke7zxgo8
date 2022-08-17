@@ -6,7 +6,7 @@ function printMessage(channel, message) {
 	console.log('\nTECHIO> message --channel "' + channel + '" "' + message + '"');
 }
 
-it("Realise la fonction helloworld", function () {
+it("Realise la fonction helloworld", () => {
 	try {
 		assert.equal("Hello World!", ex1.helloworld());
 	}
@@ -18,7 +18,7 @@ it("Realise la fonction helloworld", function () {
 
 it("Realise la fonction quiEstLeMeilleurProf", () => {
 	try {
-		assert.equal("Malashouille",ex.quiEstLeMeilleurProf());
+		assert.equal("Malashouille",ex2.quiEstLeMeilleurProf());
 	}
 	catch (error) {
 		printMessage('Conseil 💡',"Revoyer la fonction quiEstLeMeilleurProf")
