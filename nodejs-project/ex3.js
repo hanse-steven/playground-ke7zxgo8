@@ -2,6 +2,6 @@
 
 // { autofold
 module.exports = {
-    quiEstLeMeilleurProf: quiEstLeMeilleurProf
+    jeRetourneMonArgument: jeRetourneMonArgument
 };
 // }
