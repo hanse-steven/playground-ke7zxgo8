@@ -1,5 +1,5 @@
-var assert = require('assert');
-var ex = require('./ex6.js');
+let assert = require('assert');
+let ex = require('./ex6.js');
 
 function printMessage(channel, message) {
 	console.log('\nTECHIO> message --channel "' + channel + '" "' + message + '"');
