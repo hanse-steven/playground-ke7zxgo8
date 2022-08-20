@@ -44,29 +44,29 @@ age = 5 ==> `false`
 age = 34 ==> `true`
 @[Realise la fonction estIlMajeure]({ "stubs": ["ex9.js"], "command": "node_modules/mocha/bin/mocha test_ex9.js --reporter list" })
 
-# Exercice 10
+## Exercice 10
 Créer une fonction qui s'appelle **plusGrand()**. Elle prendra deux arguments de type int. Elle devra retourner le plus grand des deux.
 @[Realise la fonction plusGrand]({ "stubs": ["ex10.js"], "command": "node_modules/mocha/bin/mocha test_ex10.js --reporter list" })
 
-# Exercice 11
+## Exercice 11
 Créer une fonction qui s'appelle **plusPetit()**. Elle prendra deux arguments de type int. Elle devra retourner le plus petit des deux.
 @[Realise la fonction plusPetit]({ "stubs": ["ex11.js"], "command": "node_modules/mocha/bin/mocha test_ex11.js --reporter list" })
 
-# Exercice 12
+## Exercice 12
 Créer une fonction qui s'appelle **plusPetit()**. Elle prendra trois arguments de type int. Elle devra retourner le plus petit des trois.
 @[Realise la fonction plusPetit]({ "stubs": ["ex12.js"], "command": "node_modules/mocha/bin/mocha test_ex12.js --reporter list" })
 
-# Exercice 13
+## Exercice 13
 Créer une fonction qui s'appelle **premierElementTableau()**. Elle prendra un argument de type array (un tableau). Elle devra retourner le premier élement du tableau.
 Si l'array est vide, il faudra retourner `null`;
 @[Realise la fonction premierElementTableau]({ "stubs": ["ex13.js"], "command": "node_modules/mocha/bin/mocha test_ex13.js --reporter list" })
 
-# Exercice 14
+## Exercice 14
 Créer une fonction qui s'appelle **dernierElementTableau()**. Elle prendra un argument de type array (un tableau). Elle devra retourner le dernier élement du tableau.
 Si l'array est vide, il faudra retourner `null`;
 @[Realise la fonction dernierElementTableau]({ "stubs": ["ex14.js"], "command": "node_modules/mocha/bin/mocha test_ex14.js --reporter list" })
 
-# Exercice 15
+## Exercice 15
 Créer une fonction qui s'appelle **plusGrand()**. Elle prendra un argument de type array (un tableau). Elle devra retourner le plus grand des élements présent dans l'array.
 Si l'array est vide, il faudra retourner null;
 @[Realise la fonction plusGrand]({ "stubs": ["ex15.js"], "command": "node_modules/mocha/bin/mocha test_ex15.js --reporter list" })
@@ -74,24 +74,16 @@ Si l'array est vide, il faudra retourner null;
 
 
 
-# Exercice 16
+## Exercice 16
 Créer une fonction qui s'appelle **plusPetit()**. Elle prendra un argument de type array. Elle devra retourner le plus petit des élements présent dans l'array.
 Si l'array est vide, il faudra retourner null;
 @[Realise la fonction plusPetit]({ "stubs": ["ex16.js"], "command": "node_modules/mocha/bin/mocha test_ex16.js --reporter list" })
 
-# Exercice 17
+## Exercice 17
 Créer une fonction qui s'appelle **verificationPassword()**. Elle prendra un argument de type string. Elle devra retourner un boolean qui vaut `true` si le password fait au moins 8 caractères et `false` si moins.
 @[Realise la fonction verificationPassword]({ "stubs": ["ex17.js"], "command": "node_modules/mocha/bin/mocha test_ex17.js --reporter list" })
 
-# Exercice 18
-Créer une fonction qui s'appelle **verificationPassword()**. Elle prendra un argument de type string. Elle devra retourner un boolean qui vaut `true` si le password respecte les règles suivantes :
-1. Faire au moins 8 caractères
-2. Avoir au moins 1 chiffre
-3. Avoir au moins une majuscule et une minuscule
-@[Realise la fonction verificationPassword]({ "stubs": ["ex18.js"], "command": "node_modules/mocha/bin/mocha test_ex18.js --reporter list" })
-
-
-# Exercice 19
+## Exercice 19
 Créer une fonction qui s'appelle **capital()**. Elle prendra un argument de type string. Elle devra retourner le nom de la capitale des pays suivants :
 1. France ==> `Paris`
 2. Allemagne ==> `Berlin`
