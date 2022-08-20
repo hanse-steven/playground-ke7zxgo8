@@ -13,11 +13,11 @@ Crée une fonction qui s'appelle __jeRetourneMonArgument()__. Exemple : arg = "a
 @[Realise la fonction jeRetourneMonArgument]({ "stubs": ["ex3.js"], "command": "node_modules/mocha/bin/mocha test_ex3.js --reporter list" })
 
 ## Exercice 4
-Créer une fonction qui s'appelle __concatenation()__. Elle prendra deux arguments de type string (chaine de caractères). Elle devra retourner la concatenation des deux. Exemple : argument 1 = Jate et Argument 2 = Gomesse => Resultat : `JateGomesse`
+Créer une fonction qui s'appelle __concatenation()__. Elle prendra deux arguments de type string (chaine de caractères). Elle devra retourner la concatenation des deux. Exemple : argument 1 = Steven et Argument 2 = Hanse => Resultat : `StevenHanse`
 @[Realise la fonction concatenation]({ "stubs": ["ex4.js"], "command": "node_modules/mocha/bin/mocha test_ex4.js --reporter list" })
 
 ## Exercice 5
-Crée une fonction from scratch qui s'appelle __concatenationAvecEspace()__. Elle prendra deux arguments de type string (chaine de caractères). Elle devra retourner la concatenation des deux. Exemple : argument 1 = Jate et Argument 2 = Gomesse; Resultat : `Jate Gomesse`
+Crée une fonction from scratch qui s'appelle __concatenationAvecEspace()__. Elle prendra deux arguments de type string (chaine de caractères). Elle devra retourner la concatenation des deux. Exemple : argument 1 = Steven et Argument 2 = Hanse; Resultat : `Steven Hanse`
 @[Realise la fonction concatenation avec espace]({ "stubs": ["ex5.js"], "command": "node_modules/mocha/bin/mocha test_ex5.js --reporter list" })
 
 ## Exercice 6
