@@ -71,9 +71,6 @@ Créer une fonction qui s'appelle **plusGrand()**. Elle prendra un argument de t
 Si l'array est vide, il faudra retourner null;
 @[Realise la fonction plusGrand]({ "stubs": ["ex15.js"], "command": "node_modules/mocha/bin/mocha test_ex15.js --reporter list" })
 
-
-
-
 ## Exercice 16
 Créer une fonction qui s'appelle **plusPetit()**. Elle prendra un argument de type array. Elle devra retourner le plus petit des élements présent dans l'array.
 Si l'array est vide, il faudra retourner null;
@@ -94,7 +91,35 @@ Créer une fonction qui s'appelle **capital()**. Elle prendra un argument de typ
 7. Angleterre ==> `Londres`
 8. Tout autre pays ==> `Inconnu`
 
-Il faudra utiliser la structure **SWITCH** pour faire cette exercice.
-Tu peux certes le faire avec les if mais je voudrai que tu te serves du switch pour cet exercice.
+Tu peux certes le faire avec les if mais je voudrai que tu te serves du **SWITCH** pour cet exercice.
 @[Realise la fonction capital]({ "stubs": ["ex19.js"], "command": "node_modules/mocha/bin/mocha test_ex19.js --reporter list" })
 
+
+
+
+## Exercice 20
+Créer une fonction qui s'appelle **listHTML()**. Elle prendra deux arguments :
+1. Un string représentant le nom de la liste
+2. Un array représentant les élements de cette liste
+
+Elle devra retourner une liste HTML. Chaque element de cette liste viendra du tableau passé en paramètre.
+
+Exemple :
+Paramètre :
+Titre : **Capitale**
+Liste : ["Paris", "Berlin", "Moscou"]
+Résultat : `<h3>Capitale</h3><ul><li>Paris</li><li>Berlin</li><li>Moscou</li></ul>`
+
+Comme tu peux le voir il n'y a **pas** d'espace ni de retour à la ligne entre les élements de la liste.
+Pas d'espace non plus entre le titre et la liste.
+
+Si le titre est null et vide il faut que la fonction retourne null.
+Si l'array est vide, il faut que la fonction retourne null.
+@[Realise la fonction listHTML]({ "stubs": ["ex20.js"], "command": "node_modules/mocha/bin/mocha test_ex20.js --reporter list" })
+
+## Exercice 21
+Créer une fonction qui s'appelle **remplacerLesLettres()**. Elle prendra un argument de type string. Elle devra retourner cette même string mais en remplacant les e par des 3, les i par des 1 et les o par des 0
+Exemple :
+1. input : "Bonjour les amis" ==> Output : `B0nj0ur l3s am1s`
+1. input : "Les cours de programmation Web sont trops cools" ==> Output : `L3s c0urs d3 pr0grammat10n W3b s0nt tr0ps c00ls`
+@[Realise la fonction remplacerLesLettres]({ "stubs": ["ex21.js"], "command": "node_modules/mocha/bin/mocha test_ex21.js --reporter list" })
