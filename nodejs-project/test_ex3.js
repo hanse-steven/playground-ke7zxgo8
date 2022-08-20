@@ -7,9 +7,9 @@ function printMessage(channel, message) {
 
 it("Realise la fonction jeRetourneMonArgument", () => {
 	try {
-		assert.equal("123",ex.jeRetourneMonArgument("123"));
 		assert.equal("abc",ex.jeRetourneMonArgument("abc"));
-		assert.equal("jate",ex.jeRetourneMonArgument("jate"));
+		assert.equal(5677,ex.jeRetourneMonArgument(5677));
+		assert.equal(true,ex.jeRetourneMonArgument(true));
 	}
 	catch (error) {
 		printMessage('Conseil 💡',"Revoyer la fonction jeRetourneMonArgument")
