@@ -11,7 +11,7 @@ it("Realise la fonction plusGrand", () => {
 		assert.equal(10,ex.plusGrand([10,1]));
 		assert.equal(20,ex.plusGrand([5,20]));
 		assert.equal(null,ex.plusGrand([]));
-		assert.equal(null,ex.plusGrand([1,2,3,4,5,6,10]));
+		assert.equal(10,ex.plusGrand([1,2,3,4,5,6,10]));
 	}
 	catch (error) {
 		printMessage('Conseil 💡',"Revoyer la fonction plusGrand")

@@ -38,9 +38,6 @@ argument 1 = 5
 Argument 2 = 5 ; Resultat : `25`
 @[Realise la fonction multiplication]({ "stubs": ["ex8.js"], "command": "node_modules/mocha/bin/mocha test_ex8.js --reporter list" })
 
-
-
-
 ## Exercice 9
 Créer une fonction qui s'appelle **estIlMajeure()**. Elle prendra un argument de type int. Elle devra retourner un boolean. Si age >= 18 elle doit retourner true, si age < 18 elle doit retourner false Exemple :
 age = 5 ==> `false`
@@ -73,3 +70,39 @@ Si l'array est vide, il faudra retourner `null`;
 Créer une fonction qui s'appelle **plusGrand()**. Elle prendra un argument de type array (un tableau). Elle devra retourner le plus grand des élements présent dans l'array.
 Si l'array est vide, il faudra retourner null;
 @[Realise la fonction plusGrand]({ "stubs": ["ex15.js"], "command": "node_modules/mocha/bin/mocha test_ex15.js --reporter list" })
+
+
+
+
+# Exercice 16
+Créer une fonction qui s'appelle **plusPetit()**. Elle prendra un argument de type array. Elle devra retourner le plus petit des élements présent dans l'array.
+Si l'array est vide, il faudra retourner null;
+@[Realise la fonction plusPetit]({ "stubs": ["ex16.js"], "command": "node_modules/mocha/bin/mocha test_ex16.js --reporter list" })
+
+# Exercice 17
+Créer une fonction qui s'appelle **verificationPassword()**. Elle prendra un argument de type string. Elle devra retourner un boolean qui vaut `true` si le password fait au moins 8 caractères et `false` si moins.
+@[Realise la fonction verificationPassword]({ "stubs": ["ex17.js"], "command": "node_modules/mocha/bin/mocha test_ex17.js --reporter list" })
+
+# Exercice 18
+Créer une fonction qui s'appelle **verificationPassword()**. Elle prendra un argument de type string. Elle devra retourner un boolean qui vaut `true` si le password respecte les règles suivantes :
+1. Faire au moins 8 caractères
+2. Avoir au moins 1 chiffre
+3. Avoir au moins une majuscule et une minuscule
+@[Realise la fonction verificationPassword]({ "stubs": ["ex18.js"], "command": "node_modules/mocha/bin/mocha test_ex18.js --reporter list" })
+
+
+# Exercice 19
+Créer une fonction qui s'appelle **capital()**. Elle prendra un argument de type string. Elle devra retourner le nom de la capitale des pays suivants :
+1. France ==> `Paris`
+2. Allemagne ==> `Berlin`
+3. Italie ==> `Rome`
+4. Maroc ==> `Rabat`
+5. Espagne ==> `Madrid`
+6. Portugal ==> `Lisbonne`
+7. Angleterre ==> `Londres`
+8. Tout autre pays ==> `Inconnu`
+
+Il faudra utiliser la structure **SWITCH** pour faire cette exercice.
+Tu peux certes le faire avec les if mais je voudrai que tu te serves du switch pour cet exercice.
+@[Realise la fonction capital]({ "stubs": ["ex19.js"], "command": "node_modules/mocha/bin/mocha test_ex19.js --reporter list" })
+
